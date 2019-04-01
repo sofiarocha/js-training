@@ -8,6 +8,15 @@
  *
  */
 
+ const repeat = (str, num) => {
+     let count = 0;
+     let finalStr = "";
+     while (count < num) {
+         count ++;
+         finalStr += str; 
+     } return finalStr;
+ }
+
 //* Begin of tests
 const assert = require('assert')
 

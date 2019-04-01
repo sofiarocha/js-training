@@ -7,6 +7,7 @@
  */
 
 // Your code :
+const concatStr = (parameter1, parameter2) => parameter1 + parameter2;
 
 //* Begin of tests
 const assert = require('assert')
